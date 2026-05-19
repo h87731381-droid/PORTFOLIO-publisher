@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# 🌼 Web Publisher Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+따뜻한 색감과 오렌지 포인트 컬러를 기반으로 제작한 웹 퍼블리셔 포트폴리오입니다.
+사용자가 편안하게 콘텐츠를 탐색할 수 있도록 직관적인 UI와 인터랙션 구현에 집중했습니다.
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## 🔗 Demo
 
-### `npm start`
+배포 링크
+👉 https://portfolio-publisher-mu.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 Project Overview
 
-### `npm test`
+* React 기반 포트폴리오 사이트
+* 반응형 웹 구현
+* 사용자 경험을 고려한 인터랙션 적용
+* 프로젝트 소개 팝업 기능 구현
+* 부드러운 스크롤 이동 기능
+* 이메일 복사 기능 구현
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## 🛠 Skills
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Front-End
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* HTML5
+* CSS3
+* SCSS
+* JavaScript (ES6+)
+* React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tools
 
-### `npm run eject`
+* GitHub
+* Git
+* Figma
+* Photoshop
+* Illustrator
+* Vercel
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ✨ Main Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🔸 Smooth Scroll
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+버튼 클릭 시 원하는 섹션으로 자연스럽게 이동합니다.
 
-## Learn More
+### 🔸 Project Popup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+프로젝트 카드를 클릭하면 상세 정보를 팝업으로 확인할 수 있습니다.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🔸 Scroll Animation
 
-### Code Splitting
+Intersection Observer를 활용하여 카드 요소에 스크롤 애니메이션을 적용했습니다.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🔸 Email Copy
 
-### Analyzing the Bundle Size
+이메일 클릭 시 클립보드 복사 기능과 토스트 메시지를 구현했습니다.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 🔸 Responsive Web
 
-### Making a Progressive Web App
+다양한 디바이스 환경에서도 자연스럽게 보이도록 반응형으로 제작했습니다.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<br>
 
-### Advanced Configuration
+## 📂 Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+src
+ ┣ components
+ ┣ json
+ ┣ images
+ ┣ App.js
+ ┣ App.css
+ ┗ portfolio.scss
+```
 
-### Deployment
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🚀 Installation
 
-### `npm run build` fails to minify
+```bash
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
+
+## 👩‍💻 Author
+
+이현주
+📧 [h87731381@gmail.com](mailto:h87731381@gmail.com)
+
+GitHub
+👉 https://github.com/h87731381-droid
