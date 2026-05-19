@@ -31,7 +31,7 @@
     "date": "2026.01.31-2026.03.09",
     "tool": ["HTML","SCSS", "JS","React"],
     "github": "https://github.com/h87731381-droid/portfolio",  
-    "url": "https://dl-xogus.github.io/screen/",
+    "url": "https://portfolio-publisher-mu.vercel.app/",
     "detail": "전체적으로 따뜻한 색감을 기반으로 오렌지 포인트 컬러를 적용해 활기 있고 친근한 브랜드 무드를 표현했으며, 사용자의 시선 흐름을 고려한 UI 디자인에 집중했습니다.",
     "role": "전체적인 디자인, 기능 구현 모두 작업했습니다."
   }
