@@ -8,7 +8,7 @@
 ## 🔗 Demo
 
 배포 링크
-👉 https://your-vercel-url.vercel.app
+👉 https://portfolio-publisher-mu.vercel.app/
 
 <br>
 
