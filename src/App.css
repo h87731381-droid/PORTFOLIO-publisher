@@ -1,38 +1,60 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* 1. 기본 초기화 (reset) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 2. 기본 폰트/텍스트 설정 */
+html, body {
+  font-family: 'Ubuntu', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+  background-color: #FFF9EF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* 3. 링크 기본 스타일 */
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* 4. 리스트 스타일 제거 */
+ul, ol {
+  list-style: none;
+}
+
+/* 5. 이미지 기본 처리 */
+img {
+  max-width: 100%;
+  display: block;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+/* 6. 버튼 기본 초기화 */
+button {
+  all: unset;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* 7. 입력창 기본 */
+input, textarea {
+  outline: none;
+  font-family: inherit;
+  color: inherit;
+}
+
+/* 8. 공통 레이아웃 기준 */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* 9. 숨김 처리 */
+.hidden {
+  display: none !important;
 }
