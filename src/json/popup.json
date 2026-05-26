@@ -4,7 +4,7 @@
     "title": "영화 소개 사이트",
     "img": "/images/movie.png",
     "number": "3명",
-    "date": "2026.01.31-2026.03.09",
+    "date": "2026.01.29-2026.03.05",
     "tool": ["HTML", "CSS", "JS", "jQuery"],
     "github": "https://github.com/h87731381-droid/screen",  
     "url": "https://dl-xogus.github.io/screen/",
@@ -16,7 +16,7 @@
     "title": "여행 계획 사이트",
     "img": "/images/trip.png",
     "number": "4명",
-    "date": "2026.01.31-2026.03.09",
+    "date": "2026.04.09-2026.05.04",
     "tool": ["HTML","SCSS", "JS","Zustand","Next.js","NextAuth.js","MongoDB","ImgBB"],
     "github": "https://github.com/h87731381-droid/TripLog",  
     "url": "https://trip-log-chi.vercel.app/planner",
@@ -28,11 +28,23 @@
     "title": "나의 포트폴리오",
     "img": "/images/portfolioCut.png",
     "number": "1명",
-    "date": "2026.01.31-2026.03.09",
+    "date": "2026.05.15-2026.05.19",
     "tool": ["HTML","SCSS", "JS","React"],
     "github": "https://github.com/h87731381-droid/portfolio",  
     "url": "https://portfolio-publisher-mu.vercel.app/",
     "detail": "전체적으로 따뜻한 색감을 기반으로 오렌지 포인트 컬러를 적용해 활기 있고 친근한 브랜드 무드를 표현했으며, 사용자의 시선 흐름을 고려한 UI 디자인에 집중했습니다.",
     "role": "전체적인 디자인, 기능 구현 모두 작업했습니다."
+  },
+  {
+    "id": "3",
+    "title": "나의 포트폴리오",
+    "img": "/images/seoulTh.png",
+    "number": "1명",
+    "date": "2026.05.18-2026.05.26",
+    "tool": ["HTML","SCSS", "JS","React"],
+    "github": "https://github.com/h87731381-droid/seoul",  
+    "url": "https://seoul-omega.vercel.app/",
+    "detail": "실제 폐차 사이트를 벤치마킹하여 투박한 UI를 직관적인 절차 중심의 현대적 디자인으로 고도화한 UI/UX 프로젝트입니다.",
+    "role": "전체적인 디자인, 기능 구현 모두 작업했습니다.페이지 내 내용은 실제 운영중인 '서울폐차산업 양주' 사이트를 참고했습니다."
   }
 ]

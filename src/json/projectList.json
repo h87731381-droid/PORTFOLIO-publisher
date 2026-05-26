@@ -19,5 +19,12 @@
         "type": ["js", "React","SCSS"],
         "photo":"/images/portfolio.jpg",
         "description": "개인 포트폴리오 웹사이트"
+    },
+    {
+        "id": 3,
+        "name": "폐차장 사이트",
+        "type": ["js", "React","SCSS"],
+        "photo":"/images/seoul.jpg",
+        "description": "폐차장 UI/UX 디자인 웹사이트"
     }
 ]

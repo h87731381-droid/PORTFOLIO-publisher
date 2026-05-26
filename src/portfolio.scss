@@ -401,8 +401,8 @@
             border-radius: 2vw;
 
             @media (max-width:979px) {
-                            width: 90vw;
-                        }
+                width: 90vw;
+            }
 
             @keyframes show {
                 100% {
@@ -691,7 +691,7 @@
 }
 
 
-     //이메일 복사 버튼
+//이메일 복사 버튼
 .toast {
     position: fixed;
     bottom: 30px;
@@ -729,7 +729,7 @@
 }
 
 
-    //프로젝트 이미지
+//프로젝트 이미지
 .project button img {
     transition: transform 0.5s ease;
 }
@@ -741,14 +741,23 @@
 
 /* 하단 프로필 카드 호버 기능 */
 .profileNote a {
-  transition: color 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 .profileNote a:hover {
-  color: #ff7a00;
+    color: #ff7a00;
 }
 
 
 /* 버튼들 호버 기능 */
-.control:hover { span {color: #ff7a00;} }
-.linkBtn:hover { p {color: #ff7a00;} }
+.control:hover {
+    span {
+        color: #ff7a00;
+    }
+}
+
+.linkBtn:hover {
+    p {
+        color: #ff7a00;
+    }
+}

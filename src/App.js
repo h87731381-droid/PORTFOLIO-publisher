@@ -1,8 +1,9 @@
 import './App.css';
 import './portfolio.scss';
 import React, { useEffect, useRef, useState } from 'react';
-import popup from './json/popup.json'
+import popup from './json/popup.json';
 import projectList from './json/projectList.json';
+import skill from './json/skill.json';
 
 
 
@@ -130,54 +131,12 @@ function App() {
           <p>프로젝트에 사용한 경험이 있는 기술들입니다.</p>
         </div>
         <div className='stack card'>
-          <div className='tool'>
-            <b>HTML5</b>
-            <span>기본적인 태그를 사용하여 마크업을 할 수 있습니다.</span>
-          </div>
-          <div className='tool'>
-            <b>CSS3</b>
-            <span>스타일명령을 사용하여 레이아웃과 디자인을 할 수 있습니다.</span>
-          </div>
-          <div className='tool'>
-            <b>JavaScript</b>
-            <span>바닐라문법을 사용하여 동적인 기능을 구현할 수 있습니다.</span>
-          </div>
-          <div className='tool'>
-            <b>jQuery</b>
-            <span>jQuery를 사용해 DOM조작과 이벤트를 처리한 경험이 있습니다.</span>
-          </div>
-          <div className='tool'>
-            <b>React</b>
-            <span>유지보수를 위해 컴포넌트를 분리하고 관리할 수 있습니다.</span>
-          </div>
-          <div className='tool'>
-            <b>Figma</b>
-            <span>피그마를 사용하여 컴포넌트와 간단한 애니메이션, 스토리보드를 제작할 수 있습니다.</span>
-          </div>
-          <div className='tool'>
-            <b>Photoshop</b>
-            <span>편집도구를 활용하여 이미지를 편집하고 디자인할 수 있습니다.</span>
-          </div>
-          <div className='tool'>
-            <b>Illustrator</b>
-            <span>디자인 툴을 활용하여 해상도 높은 일러스트를 만들 수 있습니다. </span>
-          </div>
-          <div className='tool'>
-            <b>GitHub</b>
-            <span>깃허브를 활용하여 팀/개인 프로젝트를 관리할 수 있습니다.</span>
-          </div>
-          <div className='tool'>
-            <b>Git</b>
-            <span>로컬 환경에서 코드의 변경 이력을 기록하고 관리한 경험이 있습니다.</span>
-          </div>
-          <div className='tool'>
-            <b>Vercel</b>
-            <span>프로젝트를 배포하고 관리한 경험이 있습니다.</span>
-          </div>
-          <div className='tool'>
-            <b>MongoDB</b>
-            <span>기본적인 데이터 구조를 이해하고 데이터를 관리한 경험이 있습니다.</span>
-          </div>
+          {skill.map((item) => (
+            <div className='tool' key={item.id}>
+              <b>{item.tool}</b>
+              <span>{item.description}</span>
+            </div>
+          ))}
         </div>
       </div>
 
