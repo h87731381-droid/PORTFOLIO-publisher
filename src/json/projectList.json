@@ -22,7 +22,7 @@
     },
     {
         "id": 3,
-        "name": "폐차장 사이트",
+        "name": "폐차장 랜딩 페이지",
         "type": ["js", "React","SCSS"],
         "photo":"/images/seoul.jpg",
         "description": "폐차장 UI/UX 디자인 웹사이트"
