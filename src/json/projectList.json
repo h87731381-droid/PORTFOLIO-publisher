@@ -25,6 +25,13 @@
         "name": "폐차장 랜딩 페이지",
         "type": ["js", "React","SCSS"],
         "photo":"/images/seoul.jpg",
-        "description": "폐차장 UI/UX 디자인 웹사이트"
+        "description": "폐차장 웹사이트 UI/UX 리디자인"
+    },
+    {
+        "id": 4,
+        "name": "한솔데코 랜딩 페이지",
+        "type": ["js", "jQuery", "React","SCSS"],
+        "photo":"/images/decoCut.jpg",
+        "description": "한솔데코 웹사이트 UI/UX 디자인"
     }
 ]
