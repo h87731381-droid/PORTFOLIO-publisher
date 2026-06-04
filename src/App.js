@@ -220,7 +220,7 @@ function Popup({ show, setShow, selectedId }) {
                 <div className='ppp_title'>
                   <div className='ppp_title_github'>
                     <h1>{pj.title}</h1>
-                    <a href={pj.github} target="_blank" rel="noopener noreferrer"><img src="/images/github.svg" alt="" /></a>
+                    <a href={pj.github} target="_blank" rel="noopener noreferrer"><img src="/images/line-md_github.svg" alt="" /></a>
                   </div>
                   <img className='ppp_img' src={pj.img} alt="" />
                 </div>
