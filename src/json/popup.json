@@ -52,7 +52,7 @@
     "title": "한솔데코 랜딩 페이지",
     "img": "/images/decoImg.png",
     "number": "1명",
-    "date": "2026.05.18-2026.05.26",
+    "date": "2026.05.27-2026.06.05",
     "tool": ["HTML","SCSS", "JS","jQuery"],
     "github": "https://github.com/h87731381-droid/hyunjudeco",  
     "url": "https://hyunjudeco.vercel.app/",
